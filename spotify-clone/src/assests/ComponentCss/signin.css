@@ -1,0 +1,186 @@
+.bdy {
+	background-image:radial-gradient(circle, white, #F3DDED);
+    height: auto;
+}
+
+.logo {
+	position:relative;
+	right:22px;
+	position:relative;
+	height:60px;
+	width:auto;
+	cursor:pointer;
+}
+
+.p1 {
+	position:relative;
+	font-size:15px;
+	font-family:poppins;
+	font-weight:bolder;
+}
+
+.divfb {
+	position:relative;
+	background-color:#3B5998;
+	width:400px;
+	height:45px;
+	border-radius:20px;
+	font-family:poppins;
+	font-size:14px;
+	font-weight:500;
+	color:white;
+	transition:0.3s;
+	cursor:pointer;
+}
+.divfb:hover {
+	background-color:white;
+	color:#3B5998;
+}
+
+.divapple {
+	position:relative;
+  top:10px;
+	background-color:black;
+	width:400px;
+	height:45px;
+	border-radius:20px;
+	font-family:poppins;
+	font-size:14px;
+	font-weight:550;
+	color:white;
+	transition:0.3s;
+	cursor:pointer;
+
+}
+.divapple:hover {
+	background-color:white;
+	color:black;
+}
+
+.divnum {
+	position:relative;
+	top:20px;
+	background-color:white;
+	width:398px;
+	height:43px;
+	border-radius:20px;
+	border:2px solid black;
+	font-family:poppins;
+	font-size:14px;
+	font-weight:550;
+	color:black;
+	transition:0.3s;
+	cursor:pointer;
+}
+.divnum:hover {
+	background-color:black;
+	color:white;
+}
+
+.email {
+	position:relative;
+	bottom:10px;
+	width:390px;
+	height:35px;
+	border:1px solid darkgrey;
+	font-family:poppins;
+	font-size:15px;
+	color:black;
+	padding-left:8px;
+	background-color:transparent;
+}
+
+.pwd {
+	position:relative;
+	bottom:5px;
+	width:390px;
+	height:35px;
+	border:1px solid darkgrey;
+	font-family:poppins;
+	font-size:15px;
+	color:black;
+	padding-left:8px;
+	background-color:transparent;
+}
+
+::placeholder {
+	color:darkgrey;
+}
+
+.rmbrbttn {
+	position:relative;
+  top:11px;
+	background-color:transparent;
+	width:15px;
+	height:15px;
+	border:1px solid darkgrey;
+	border-radius:3.5px;
+	right:192.5px;
+	cursor:pointer;
+	z-index:2;
+	transition:0.3s;
+
+}
+.rmbrbttn:active{
+	background-color:#65B963;
+}
+
+
+.rmbr {
+	position:relative;
+	bottom:25px;
+	right:120px;
+	font-size:15px;
+	font-family:poppins	;
+	color:darkgrey;
+}
+
+.login{
+	position:relative;
+	bottom:70px;
+	left:135px;
+	font-family:poppins;
+	font-size:15px;
+	color:white;
+	background-color:#65B963;
+	border:none;
+	width:125px;
+	height:35px;
+	border-radius:15px;
+	color:white;
+	cursor:pointer;
+	transition:0.3s;
+	outline:none;
+}
+.login:hover{
+	background-color:white;
+	color:#65B963;
+}
+
+
+.ppp {
+	position:relative;
+	bottom:60px;
+	font-size:15px;
+	font-family:poppins;
+	color:darkgrey;
+
+}
+
+.divlog {
+	position:relative;
+	bottom:60px;
+	background-color:#65B963;
+	width:400px;
+	height:45px;
+	border-radius:20px;
+	font-family:poppins;
+	font-size:15px;
+	color:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+.divlog:hover{
+	background-color:white;
+	color:#65B963;
+}

@@ -1,12 +1,14 @@
 
 import LandingPage from "./MyComponents/LandingPage";
+import SignIn from "./MyComponents/SignIn";
 
 function App(){
   return(
     <>
-    <LandingPage></LandingPage>
+    {/* <LandingPage></LandingPage> */}
+    <SignIn></SignIn>
 
-   
+  
     </>
   );
 }

@@ -17,18 +17,18 @@ export default function Signuppage() {
 								<li>Listen Offline</li>
 								<li>Play any track</li>
 								<li>High Quality Audio</li>
-								<span style="font-size:0.85em;">Lorem ipsum dolor sit amet.</span>
+								<span style={{ 'font-size': '0.85em' }}>Lorem ipsum dolor sit amet.</span>
 								<br />
-								<span style="font-size:0.85em;">Lorem ipsum dolor sit amet.</span>
+								<span style={{ 'font-size': '0.85em' }}>Lorem ipsum dolor sit amet.</span>
 							</div>
-							<p style="font-size:0.6em; margin:0 auto; padding:0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, odio! Lorem ipsum dolor. Lorem ipsum dolor sit amet.</p>
+							<p style={{ 'font-size': '0.6em', 'margin': '0 auto', ' padding': '0' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, odio! Lorem ipsum dolor. Lorem ipsum dolor sit amet.</p>
 						</div>
 					</div>
 					<div className="col-lg-7 form-section">
 						<div className="form-conatiner">
-							<h2 className="heading__h2"><i style="font-size: 1.5em;" className="fa fa-spotify"></i> Spotify</h2>
+							<h2 className="heading__h2"><i style={{ 'font-size': '1.5em' }} className="fa fa-spotify"></i> Spotify</h2>
 							<br /><br />
-							<p className="links__p"><a href="#">Sign In</a> | <a href="#" style="font-weight:700;">Sign Up</a></p>
+							<p className="links__p"><a href="/">Sign In</a> | <a href="/" style={{ 'font-weight': '700' }}>Sign Up</a></p>
 							<form action="/" />
 							<label for="name">NAME</label>
 							<input type="text" id="name" placeholder="Enter your full name" />

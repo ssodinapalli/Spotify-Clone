@@ -2,7 +2,6 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <>
       <nav className="navbar">
         <ul className="list">
           <li className="brand">
@@ -12,10 +11,11 @@ export default function NavBar() {
           <li className="list">Download</li>
           <li className="list">Listen</li>
           <li className="list-one"> |</li>
-          <li className="list">Log in</li>
-          <li className="list">Sign up</li>
+          <li className="list">
+            Sign In</li>
+        
+          <li className="list">Sign Up</li>
         </ul>
       </nav>
-    </>
   );
 }

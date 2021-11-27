@@ -11,10 +11,10 @@ export default function SignUp() {
 							alt="/"
 							className={signup.spotifylogo}
 						/>
-						<span className={signup.spotify}> Spotify</span>
+						<span className={signup.spotify} style={{ color: "black" }}> Spotify</span>
 					</div>
-					<hr style={{ position: "relative", bottom: "0px", opacity: "0.5" }} />
-					<p className={signup.p1}>  Sign up for free to start listening.</p>
+					<hr style={{ position: "relative", bottom: "0px", opacity: "0.5", color: "black" }} />
+					<p className={signup.p1} style={{ color: "black" }}> Sign up for free to start listening.</p>
 
 					<div className={signup.divfb}>
 						<center style={{ position: "relative", top: "11px" }}>
@@ -33,8 +33,10 @@ export default function SignUp() {
 							position: "relative",
 							top: "25px",
 							opacity: "0.5",
+							color:"black"
 						}}
 					/>
+					<br />
 					<p
 						style={{
 							fontFamily: "poppins",
@@ -43,12 +45,14 @@ export default function SignUp() {
 							backgroundColor: "#fdf8fc",
 							width: "25px",
 							position: "relative",
-							bottom: "5px",
+							bottom: "12px",
+							color:"black"
 						}}
 					>
 						{" "}
 						or{" "}
 					</p>
+					<br />
 					<input
 						type="text"
 						className={signup.email}
@@ -79,20 +83,17 @@ export default function SignUp() {
 					<br />
 					<br />
 
-
 					<div className={signup.divlog}>
 						<center style={{ position: "relative", top: "11px" }}>
-							SIGN UP
+							<button><b>SIGN UP</b></button>
 						</center>
 					</div>
 
 					<div className={signup.divlog}>
 						<center style={{ position: "relative", top: "11px" }}>
-							SIGN IN
+							<button><b>SIGN IN</b></button>
 						</center>
 					</div>
-					<p className={signup.p2}>  Sign up for free to start listening.</p>
-
 				</center>
 			</div>
 		</>

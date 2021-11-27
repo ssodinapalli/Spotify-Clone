@@ -3,6 +3,7 @@ import LandingPage from "./MyComponents/LandingPage";
 import Mainpage from "./MyComponents/Mainpage";
 import SignIn from "./MyComponents/SignIn";
 import SignUp from"./MyComponents/SignUp";
+import Sidebar from "./MyComponents/Sidebar";
 // import {
 //   BrowserRouter as Router,
 //   Switch,
@@ -15,7 +16,8 @@ function App() {
   return (
     <>
     {/* <Dashboard></Dashboard> */}
-    <SignUp></SignUp>
+    {/* <SignUp></SignUp> */}
+    <Sidebar></Sidebar>
 
     {/* <Mainpage></Mainpage> */}
     {/* <LandingPage></LandingPage> */}

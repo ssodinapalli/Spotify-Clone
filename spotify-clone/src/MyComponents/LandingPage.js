@@ -3,27 +3,33 @@ import "../assests/ComponentCss/landingpage.css";
 import NavBar from "./NavBar";
 export default function LandingPage() {
   return (
-    <>
-      <NavBar />
-      <div className="maincontainer">
-        <div className="marsh">
-          <img src="https://i.postimg.cc/pLnnqwzC/pic.png" alt="" />
+    <> 
+    <NavBar/>
+      <section id="home">
+        <div className="container">
+          <div className="row justify-content-left">
+            <div className="col-md-20 mt-5">
+              <div className="col-md-20 mt-5">
+                <div className="col-md-20 mt-5">
+                  <h1 className="display-4 fw-bolder mt-30 mb-4 text-left">
+                    Feel the Fresh Music...
+                  </h1>
+                  <p container="lead text-center fs-4 mb-5">something...</p>
+                  <div className="buttons d-flex justify-content-center">
+                    <button className="btn btn-light me-4  rounded-pill px-4 py-2">
+                      Download App Now{" "}
+                    </button>
+                    <button className="btn btn-outline-light me-4 rounded-pill px-4 py-2">
+                      Open Web Player{" "}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="headcontent">
-          Feel the Music <i className="fas fa-music"></i>
-        </div>
-        <div className="content">
-          <em>
-            Music and Rythmn find their <br /> way into the secret places <br />{" "}
-            of the soul..
-          </em>
-        </div>
-        <div className="button">
-          <a href="/" className="join">
-            Join Now
-          </a>
-        </div>
-      </div>
+      </section>
+      
     </>
   );
 }

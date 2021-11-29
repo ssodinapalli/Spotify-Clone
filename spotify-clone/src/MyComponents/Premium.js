@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+function Premium() {
     return (
         <>
             <div>
@@ -74,3 +74,5 @@ export default function () {
         </>
     )
 }
+
+export default Premium;

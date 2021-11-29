@@ -1,5 +1,11 @@
 #home{
-    background-color: rgb(32, 216, 176);
-    background: linear-gradient(90deg,rgb(75, 228, 190) 50%,rgb(80, 214, 214) 100%);
+  background-image: linear-gradient(to right top, #dde2eb, #c0cbf1, #b1b0f2, #b191eb, #bb6bda);
     min-height: 700px;
 } 
+.fa-spotify{
+  font-size: 30px;
+}
+.head{
+  width: 350px;
+  height: 350px;
+}

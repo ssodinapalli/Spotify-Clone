@@ -1,31 +1,33 @@
 import React from "react";
-import signup from "../assests/ComponentCss/signin.module.css";
+import signin from "../assests/ComponentCss/signin.module.css";
+import { Link } from "react-router-dom";
+
 export default function SignIn() {
   return (
     <>
-      <div className={signup.bdy}>
+      <div className={signin.bdy}>
         <center>
-          <div className={signup.maincontainer}>
+          <div className={signin.maincontainer}>
             <img
               src="https://img.icons8.com/ios-filled/50/000000/spotify.png"
               alt="/"
-              className={signup.spotifylogo}
+              className={signin.spotifylogo}
             />
-            <span className={signup.spotify}> Spotify</span>
+            <span className={signin.spotify}> Spotify</span>
           </div>
           <hr style={{ position: "relative", bottom: "0px", opacity: "0.5" }} />
-          <p className={signup.p1}>To continue, Sign In To Spotify.</p>
-          <div className={signup.divfb}>
+          <p className={signin.p1}>To continue, Sign In To Spotify.</p>
+          <div className={signin.divfb}>
             <center style={{ position: "relative", top: "11px" }}>
               CONTINUE WITH FACEBOOK
             </center>
           </div>
-          <div className={signup.divapple}>
+          <div className={signin.divapple}>
             <center style={{ position: "relative", top: "11px" }}>
               CONTINUE WITH APPLE
             </center>
           </div>
-          <div className={signup.divnum}>
+          <div className={signin.divnum}>
             <center style={{ position: "relative", top: "11px" }}>
               CONTINUE WITH A PHONE NUMBER
             </center>
@@ -54,20 +56,20 @@ export default function SignIn() {
           </p>
           <input
             type="text"
-            className={signup.email}
+            className={signin.email}
             placeholder="Email adress or Username"
           />
           <br />
           <input
             type="password"
-            className={signup.pwd}
+            className={signin.pwd}
             placeholder="Password"
           />
 
-          <div className={signup.rmbrbttn}></div>
-          <p className={signup.rmbr}>Remember me</p>
+          <div className={signin.rmbrbttn}></div>
+          <p className={signin.rmbr}>Remember me</p>
 
-          <button className={signup.login}>Login</button>
+          <button className={signin.login}>Login</button>
 
           <hr
             style={{
@@ -78,11 +80,11 @@ export default function SignIn() {
             }}
           />
 
-          <p className={signup.ppp}>You do not have an account?</p>
+          <p className={signin.ppp}>You do not have an account?</p>
 
-          <div className={signup.divlog}>
+          <div className={signin.divlog}>
             <center style={{ position: "relative", top: "11px" }}>
-              Create new account from here
+              <Link to="signup" className={signin.routerpara}><p >Create Account From Here</p></Link>
             </center>
           </div>
         </center>

@@ -91,7 +91,7 @@
 .email {
   position: relative;
   margin-bottom: 10px;
-  bottom: 6px;
+  bottom: 46px;
   width: 390px;
   height: 45px;
   border: 1px solid darkgrey;
@@ -107,7 +107,7 @@
 .pwd {
   position: relative;
   margin-bottom: 10px;
-  bottom: 5px;
+  bottom: 45px;
   width: 390px;
   height: 45px;
   border: 1px solid darkgrey;
@@ -150,15 +150,15 @@
 
 .login {
   position: relative;
-  bottom: 52px;
-  left: 135px;
+  bottom: 89px;
+  /* left: 135px; */
   font-family: poppins;
   font-size: 15px;
   color: white;
   background-color: #44af42;
   border: none;
-  width: 125px;
-  height: 35px;
+  width: 400px;
+  height: 45px;
   border: #44af42;
   border-radius: 15px;
   color: white;
@@ -173,7 +173,7 @@
 
 .ppp {
   position: relative;
-  bottom: 60px;
+  bottom: 86px;
   font-size: 15px;
   font-family: poppins;
   color: darkgrey;
@@ -181,7 +181,7 @@
 
 .divlog {
   position: relative;
-  bottom: 60px;
+  bottom: 80px;
   margin-top: 15px;
   margin-bottom: 15px;
   background-color: #41ad3f;
@@ -215,5 +215,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 18px;
+  margin-top: 0px;
+}
+
+.btn:hover{
+ color:#65b963;
+}
+.here{
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
 }

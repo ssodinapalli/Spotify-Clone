@@ -199,3 +199,11 @@
   justify-content: center;
   align-items: center;
 }
+.routerpara{
+  color: white;
+  text-decoration: none;
+}
+.routerpara:hover{
+  background-color: white;
+  color: #65b963;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import signup from "../assests/ComponentCss/signup.module.css";
+import { Link } from "react-router-dom";
 export default function SignUp() {
 	return (
 		<>
@@ -82,18 +83,11 @@ export default function SignUp() {
 					{/* <button className={signup.login}>Login</button> */}
 					<br />
 					<br />
-
-					<div className={signup.divlog}>
-						<center style={{ position: "relative", top: "11px" }}>
-							<button><b>SIGN UP</b></button>
-						</center>
-					</div>
-
-					<div className={signup.divlog}>
-						<center style={{ position: "relative", top: "11px" }}>
-							<button><b>SIGN IN</b></button>
-						</center>
-					</div>
+					<p className={signup.ppp}>Have an account? <Link to="/signin" className={signup.here}>  Sign In Here </Link></p>
+					<button className={signup.login}>Sign Up Here</button>
+				
+               
+					
 				</center>
 			</div>
 		</>

@@ -9,3 +9,10 @@
   width: 350px;
   height: 350px;
 }
+.explore{
+  text-decoration: none;
+  color: #198754;
+}
+.explore:hover{
+  color: white;
+}

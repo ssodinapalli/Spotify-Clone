@@ -1,16 +1,17 @@
 import React from "react";
 import "../assests/ComponentCss/landingpage.css";
-import heads from '../assests/images/heads.jpeg'
+
+
 export default function LandingPage() {
   return (
     <> 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
-      <div class="container" id="navbar">
-        <a class="navbar-brand fw-bolder fs-4 " href="/">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+      <div className="container" id="navbar">
+        <a className="navbar-brand fw-bolder fs-4 " href="/">
         <i className="fab fa-spotify"></i> Spotify
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -18,38 +19,38 @@ export default function LandingPage() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0   mx-lg-auto">
-            <li class="nav-item mx-2" >
-              <a class="nav-link active  " aria-current="page" href="/">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0   mx-lg-auto">
+            <li className="nav-item mx-2" >
+              <a className="nav-link active  " aria-current="page" href="/">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="/">
+            <li className="nav-item">
+              <a className="nav-link mx-2" href="/">
                 Premium
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="/">
+            <li className="nav-item">
+              <a className="nav-link mx-2" href="/">
                 Support
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="/">
+            <li className="nav-item">
+              <a className="nav-link mx-2" href="/">
                 Download
               </a>
             </li>
           </ul>
           <button className="btn btn-outline-success ms-auto px-4 rounded-pill">
             <i className="fa fa-sign-in-alt me-2 "></i>
-            Login
+            <a className="explore" href="/signin">Sign In</a>
           </button>
           <button className="btn btn-outline-success ms-2 px-4 rounded-pill">
             <i className="fa fa-user-plus me-2"></i>
-            Sign Up
+            <a className="explore" href="/signup">Sign Up</a>
           </button>
         </div>
       </div>

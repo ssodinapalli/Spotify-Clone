@@ -29,7 +29,7 @@ export default function LandingPage() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mx-2" href="/">
+              <a className="nav-link mx-2" href="/premium">
                 Premium
               </a>
             </li>
@@ -64,7 +64,7 @@ export default function LandingPage() {
                   <h1 className="display-4 fw-bolder mt-30 mb-4 text-left">
                     Feel the Fresh Music...
                   </h1>
-                  <img src="https://cdn3d.iconscout.com/3d/premium/thumb/mobile-music-player-4521061-3755278.png" alt="img" srcset="" className="head"/>
+                  <img src="https://cdn3d.iconscout.com/3d/premium/thumb/mobile-music-player-4521061-3755278.png" alt="img"  className="head"/>
                   <div className="buttons d-flex justify-content-center">
                     <button className="btn btn-light mx-5 me-4  rounded-pill px-4 py-2">
                       Download App Now{" "}

@@ -7,12 +7,13 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-
+import Download from './MyComponents/Download'
+import Bottombar from './MyComponents/Bottombar'
 
 function App() {
   return (
     <>
-     <Router>
+     {/* <Router>
        <Switch>
          <Route exact path = "/" component={LandingPage}></Route>
          <Route exact path = "/signin" component={SignIn}></Route>
@@ -20,7 +21,8 @@ function App() {
          <Route exact path = "/premium" component={Premium}></Route> 
        </Switch>
      </Router>
-    
+     */}
+     <Download/>
     </>
   );
 }

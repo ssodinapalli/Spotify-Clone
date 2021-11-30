@@ -4,7 +4,7 @@ import '../assests/ComponentCss/Premiumm.css';
 function Premium() {
     return (
         <>
-            <div>
+            <div className="premium-container">
                 <section id="premium" />
                 <div className="container  py-2">
                     <div className="row">

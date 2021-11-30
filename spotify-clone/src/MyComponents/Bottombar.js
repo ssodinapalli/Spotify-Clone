@@ -4,6 +4,7 @@ import '../assests/ComponentCss/Bottombarr.css';
 function Bottombar() {
   return (
     <>
+    <div className="bottomcontainer">
       <footer
         id="mh-footer"
         class="mh-footer-hover svelte-13h39ov snipcss-3ATHb"
@@ -269,6 +270,7 @@ function Bottombar() {
           </div>
         </nav>
       </footer>
+      </div>
     </>
   );
 }

@@ -37,7 +37,7 @@
     --text-bright-accent: #117a37; 
     --text-negative: #d31225; 
     --text-warning: #9d5a00; 
-    --text-positive: #117a37; 
+    --text-positive: #117a37;
     --text-announcement: #0c67d3; 
     --essential-base: #000000; 
     --essential-subdued: #878787; 
@@ -130,8 +130,7 @@ footer.svelte-13h39ov {
     font-size: 16px; 
     font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif; 
     font-weight: 400;
-    background-color: black;
-
+    
 } 
 
 [dir] footer.svelte-13h39ov  { 
@@ -270,6 +269,7 @@ nav.svelte-13h39ov {
     flex-direction: column; 
     display: flex; 
     flex-direction: column;
+
 
 } 
 
@@ -814,9 +814,16 @@ a.svelte-1ad7r0v span.svelte-1ad7r0v  {
     background-color: currentcolor;
 
 } 
-
-.mh-footer{
-  background-color: #000000;
+.bottomcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 20px;
 }
+.mh-footer-primary{
+  color: #000000;
+}
+
 
 

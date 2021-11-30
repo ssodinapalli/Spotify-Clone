@@ -8,21 +8,19 @@ import {
   Route,
 } from "react-router-dom";
 import Download from './MyComponents/Download'
-import Bottombar from './MyComponents/Bottombar'
 
 function App() {
   return (
     <>
-     {/* <Router>
+     <Router>
        <Switch>
          <Route exact path = "/" component={LandingPage}></Route>
          <Route exact path = "/signin" component={SignIn}></Route>
          <Route exact path ="/signup" component ={SignUp}></Route>
          <Route exact path = "/premium" component={Premium}></Route> 
+         <Route exact path = "/downloads" component={Download}></Route>
        </Switch>
      </Router>
-     */}
-     <Download/>
     </>
   );
 }

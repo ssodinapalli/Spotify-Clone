@@ -83,7 +83,7 @@ export default function SignUp() {
 					{/* <button className={signup.login}>Login</button> */}
 					<br />
 					<br />
-					<p className={signup.ppp}>Have an account? <Link to="/signin" className={signup.here}>  Sign In Here </Link></p>
+					<p className={signup.ppp}>Have an account? <Link to="/signin" className={signup.here}>   Sign In Here </Link></p>
 					<button className={signup.login}>Sign Up Here</button>
 				
                

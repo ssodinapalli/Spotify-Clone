@@ -594,8 +594,7 @@ html {
 
 
 .download-container {
-  background-color: #17a449;
-  
+  background-image: linear-gradient(to right top, #dde2eb, #c0cbf1, #b1b0f2, #b191eb, #bb6bda);
   margin-bottom: 10px;
 }
 .ButtonInner-peijbp-0 {

@@ -40,8 +40,8 @@ function Download() {
           <div class="ButtonFocus-tupyzb-0 bWXdpj"></div>
         </button>
       </div>
-      </div>
       <Bottombar/>
+      </div>
     </>
   );
 }

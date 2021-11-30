@@ -1288,5 +1288,6 @@ html {
     --decorative-subdued: #FFFFFF  !important;
 
 } 
-
-
+.premium-container{
+  background-image: linear-gradient(to right top, #dde2eb, #c0cbf1, #b1b0f2, #b191eb, #bb6bda);
+}

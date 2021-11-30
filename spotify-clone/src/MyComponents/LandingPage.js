@@ -39,7 +39,7 @@ export default function LandingPage() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mx-2" href="/">
+              <a className="nav-link mx-2" href="/downloads">
                 Download
               </a>
             </li>

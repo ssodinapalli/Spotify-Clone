@@ -8,6 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import Download from './MyComponents/Download'
+import Contributors from './MyComponents/Contributors'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
          <Route exact path ="/signup" component ={SignUp}></Route>
          <Route exact path = "/premium" component={Premium}></Route> 
          <Route exact path = "/downloads" component={Download}></Route>
+         <Route exact path = "/contributors" component = {Contributors}></Route>
        </Switch>
      </Router>
     </>

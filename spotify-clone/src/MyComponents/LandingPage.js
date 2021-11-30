@@ -34,8 +34,8 @@ export default function LandingPage() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mx-2" href="/">
-                Support
+              <a className="nav-link mx-2" href="/contributors">
+                Contributors
               </a>
             </li>
             <li className="nav-item">

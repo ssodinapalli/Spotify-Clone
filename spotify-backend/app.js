@@ -3,11 +3,15 @@ const mongoose = require("mongoose");
 
 
 const app = express();
-const url = "mongodb://localhost/users";
+// const url = "mongodb://localhost/users";
 
-mongoose.connect(url, { useNewUrlParser: true }).then(() => {
-    console.log("connection success");
-});
+const DB = 'mongodb+srv://jerry:jerry@spotify-cluster.5gc6d.mongodb.net/spotify-db?retryWrites=true&w=majority';
+
+mongoose.connect(DB, {useNewUrlParser:true}).then(()=>{
+    console.log('successfull')
+}).catch((err)=>{
+    console.log(err)
+})
 
 const con = mongoose.connection;
 app.use(express.json());
@@ -25,3 +29,4 @@ app.listen(9000, () => {
 });
 
 // http://localhost:9000/users
+//mongodb+srv://jerry:<password>@spotify-cluster.5gc6d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

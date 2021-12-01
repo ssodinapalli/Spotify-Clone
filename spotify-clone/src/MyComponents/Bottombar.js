@@ -12,7 +12,7 @@ function Bottombar() {
         <nav className="svelte-13h39ov">
           <div className="mh-brand svelte-13h39ov">
             <a
-              href="https://www.spotify.com/us/"
+              href="/"
               className="mh-footer-primary svelte-18o1xvt"
             >
               <span className="mh-footer-primary svelte-1gcdbl9">
@@ -34,7 +34,7 @@ function Bottombar() {
               <dt className="svelte-12h6dnj">Company</dt>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://www.spotify.com/us/about-us/contact/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="about"
@@ -44,7 +44,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://www.lifeatspotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="jobs"
@@ -54,7 +54,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://newsroom.spotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="press"
@@ -67,7 +67,7 @@ function Bottombar() {
               <dt className="svelte-12h6dnj">Communities</dt>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://artists.spotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="artists"
@@ -77,7 +77,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://developer.spotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="developers"
@@ -87,7 +87,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://ads.spotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="advertising"
@@ -97,7 +97,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://investors.spotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="investors"
@@ -107,7 +107,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://spotifyforvendors.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="vendors"
@@ -120,7 +120,7 @@ function Bottombar() {
               <dt className="svelte-12h6dnj">Useful links</dt>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://support.spotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="help"
@@ -130,7 +130,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://open.spotify.com/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="play"
@@ -140,7 +140,7 @@ function Bottombar() {
               </dd>
               <dd className="svelte-12h6dnj">
                 <a
-                  href="https://www.spotify.com/us/free/"
+                  href="/"
                   className="mh-footer-primary svelte-12h6dnj"
                   data-ga-category="menu"
                   data-ga-action="free"
@@ -154,7 +154,7 @@ function Bottombar() {
             <ul className="svelte-1ad7r0v">
               <li className="svelte-1ad7r0v">
                 <a
-                  href="https://instagram.com/spotify"
+                  href="/"
                   title="Instagram"
                   className="mh-footer-primary svelte-1ad7r0v"
                 >
@@ -167,7 +167,7 @@ function Bottombar() {
               </li>
               <li className="svelte-1ad7r0v">
                 <a
-                  href="https://twitter.com/spotify"
+                  href="/"
                   title="Twitter"
                   className="mh-footer-primary svelte-1ad7r0v"
                 >
@@ -180,7 +180,7 @@ function Bottombar() {
               </li>
               <li className="svelte-1ad7r0v">
                 <a
-                  href="https://www.facebook.com/Spotify"
+                  href="/"
                   title="Facebook"
                   className="mh-footer-primary svelte-1ad7r0v"
                 >
@@ -195,7 +195,7 @@ function Bottombar() {
           </div>
           <div className="mh-country svelte-13h39ov">
             <a
-              href="https://www.spotify.com/us/select-your-country-region/"
+              href="/"
               className="mh-footer-secondary mh-compact svelte-1ouzkfx"
             >
               <svg
@@ -219,7 +219,7 @@ function Bottombar() {
             <ul className="svelte-19l7cif">
               <li className="svelte-19l7cif">
                 <a
-                  href="https://www.spotify.com/us/legal/"
+                  href="/"
                   className="mh-footer-secondary svelte-1ouzkfx"
                 >
                   Legal
@@ -227,7 +227,7 @@ function Bottombar() {
               </li>
               <li className="svelte-19l7cif">
                 <a
-                  href="https://www.spotify.com/us/privacy/"
+                  href="/"
                   className="mh-footer-secondary svelte-1ouzkfx"
                 >
                   Privacy Center
@@ -235,7 +235,7 @@ function Bottombar() {
               </li>
               <li className="svelte-19l7cif">
                 <a
-                  href="https://www.spotify.com/us/legal/privacy-policy/"
+                  href="/"
                   className="mh-footer-secondary svelte-1ouzkfx"
                 >
                   Privacy Policy
@@ -243,7 +243,7 @@ function Bottombar() {
               </li>
               <li className="svelte-19l7cif">
                 <a
-                  href="https://www.spotify.com/us/legal/cookies-policy/"
+                  href="/"
                   className="mh-footer-secondary svelte-1ouzkfx"
                 >
                   Cookies
@@ -251,7 +251,7 @@ function Bottombar() {
               </li>
               <li className="svelte-19l7cif">
                 <a
-                  href="https://www.spotify.com/us/legal/privacy-policy/#s3"
+                  href="/"
                   className="mh-footer-secondary svelte-1ouzkfx"
                 >
                   About Ads
@@ -259,7 +259,7 @@ function Bottombar() {
               </li>
               <li className="svelte-19l7cif">
                 <a
-                  href="https://www.spotify.com/us/legal/California-privacy-disclosure/"
+                  href="/"
                   className="mh-footer-secondary svelte-1ouzkfx"
                 >
                   Additional CA Privacy Disclosures

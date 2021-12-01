@@ -4,12 +4,12 @@ import SignUp from "./MyComponents/SignUp";
 import Premium from "./MyComponents/Premium";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Download from "./MyComponents/Download";
-// import Contributors from "./MyComponents/Contributors";
+import Contributors from "./MyComponents/Contributors";
 import { useState, useEffect } from "react";
 import Player from "./MyComponents/Player";
 
 function App() {
-  const [songs] = useState([
+  const songs=[
     {
       title: "Forget me too ft. Halsey",
       artist: "Machine Gun Kelly",
@@ -34,7 +34,7 @@ function App() {
       img_src: "./images/song-4.jpg",
       src: "./music/somebody-new.mp3",
     },
-  ]);
+  ];
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
   const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
 

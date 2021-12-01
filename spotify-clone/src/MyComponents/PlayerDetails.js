@@ -1,23 +1,15 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlay, faPause, faForward, faBackward } from '@fortawesome/free-solid-svg-icons'
-
-
+import React from 'react'
 
 function PlayerDetails(props) {
     return (
-        <div className="c-player--controls">
-            <button className="skip-btn" onClick={() => props.SkipSong(false)}>
-                <FontAwesomeIcon icon={faBackward} />
-            </button>
-            <button className="play-btn" onClick={() => props.setIsPlaying(!props.isPlaying)}>
-                <FontAwesomeIcon icon={props.isPlaying ? faPause : faPlay} />
-            </button>
-            <button className="skip-btn" onClick={() => props.SkipSong()}>
-                <FontAwesomeIcon icon={faForward} />
-            </button>
+        <div className="c-player--details">
+            <div className="details-img">
+                <img src={props.song.img_src} alt="" />
+            </div>
+            <h3 className="details-title">{props.song.title}</h3>
+            <h4 className="details-artist">{props.song.artist}</h4>
         </div>
     )
 }
 
-export default PlayerDetails
+export default PlayerDetails;

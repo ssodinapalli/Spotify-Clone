@@ -26,7 +26,6 @@ const userSchema = new mongoose.Schema({
     type: String,
     trim: true,
     required: [true, "password is required"],
-    select: true,
     minlength: [3, "minmum 3 characters"],
     maxlength: [10, "maximum 10 characters"],
   },
@@ -34,11 +33,11 @@ const userSchema = new mongoose.Schema({
   confirmPassword: {
     type: String,
     trim: true,
-    select: true,
     minlength: [3, "minmum 3 characters"],
     maxlength: [10, "maximum 10 characters"],
   },
 });
+
 
 module.exports = mongoose.model("userdata", userSchema)
 

@@ -1,11 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require('cors')
 
 
 const app = express();
 // const url = "mongodb://localhost/users";
 
-const DB = 'mongodb+srv://jerry:jerry@spotify-cluster.5gc6d.mongodb.net/spotify-db?retryWrites=true&w=majority';
+const DB = 'mongodb+srv://jerry:jerryplox@spotify-cluster.wbprv.mongodb.net/spotify-db?retryWrites=true&w=majority';
 
 mongoose.connect(DB, {useNewUrlParser:true}).then(()=>{
     console.log('successfull')
@@ -15,9 +16,11 @@ mongoose.connect(DB, {useNewUrlParser:true}).then(()=>{
 
 const con = mongoose.connection;
 app.use(express.json());
+app.use(express.urlencoded({extended:false}))
+app.use(cors());
 
 const userRouter = require("./Routers/users"); // using routers present in Routers folder
-app.use("/users", userRouter);
+app.use("/", userRouter);
 
 
 con.on("open", () => {

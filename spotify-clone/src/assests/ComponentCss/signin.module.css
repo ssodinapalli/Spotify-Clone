@@ -1,5 +1,4 @@
 .bdy {
-  background-image: radial-gradient(circle, white, #f3dded);
 }
 
 .logo {
@@ -137,7 +136,7 @@
 
 .login {
   position: relative;
-  bottom: 52px;
+  bottom: -6px;
   left: 135px;
   font-family: poppins;
   font-size: 15px;
@@ -159,7 +158,7 @@
 
 .ppp {
   position: relative;
-  bottom: 60px;
+  bottom: -10px;
   font-size: 15px;
   font-family: poppins;
   color: darkgrey;
@@ -167,7 +166,7 @@
 
 .divlog {
   position: relative;
-  bottom: 60px;
+  bottom: 0px;
   background-color: #41ad3f;
   width: 400px;
   height: 45px;
@@ -199,11 +198,14 @@
   justify-content: center;
   align-items: center;
 }
-.routerpara{
+.routerpara {
   color: white;
   text-decoration: none;
 }
-.routerpara:hover{
+.routerpara:hover {
   background-color: white;
   color: #65b963;
+}
+.new {
+  padding: 50px;
 }

@@ -1,18 +1,25 @@
-#home{
-  background-image: linear-gradient(to right top, #dde2eb, #c0cbf1, #b1b0f2, #b191eb, #bb6bda);
-    min-height: 700px;
-} 
-.fa-spotify{
+#home {
+  background-image: linear-gradient(
+    to right top,
+    #dde2eb,
+    #c0cbf1,
+    #b1b0f2,
+    #b191eb,
+    #bb6bda
+  );
+  min-height: 700px;
+}
+.fa-spotify {
   font-size: 30px;
 }
-.head{
+.head {
   width: 350px;
   height: 350px;
 }
-.explore{
+.explore {
   text-decoration: none;
   color: #198754;
 }
-.explore:hover{
+.explore:hover {
   color: white;
 }

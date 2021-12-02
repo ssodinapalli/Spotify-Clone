@@ -32,4 +32,5 @@ app.listen(9000, () => {
 });
 
 // http://localhost:9000/users
+//http://localhost:9000/songs
 //mongodb+srv://jerry:<password>@spotify-cluster.5gc6d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

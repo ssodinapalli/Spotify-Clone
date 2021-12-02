@@ -72,10 +72,9 @@ export default function SignIn() {
               fontFamily: "poppins",
               fontSize: "15px",
               fontWeight: "200",
-              backgroundColor: "#fdf8fc",
               width: "25px",
               position: "relative",
-              bottom: "5px",
+              bottom: "14px",
             }}
           >
             {" "}

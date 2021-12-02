@@ -17,13 +17,15 @@ body {
 }
 
 .c-player {
-    display: block;
-    background-color: #313131;
+    background-image: linear-gradient(to right top, #bdc6d3, #b6c0da, #b4b8e0, #b9aee2, #c4a3e0);
     display: block;
     margin: 0px auto;
+    width:335px;
+    height: 650px;
     padding: 50px;
     border-radius: 16px;
-    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    margin-top: 50px;
+    /* box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4); */
 }
 
 .c-player > h4 {
@@ -69,7 +71,8 @@ body {
     right: -25px;
     bottom: -25px;
     border-radius: 50%;
-    border: 3px dashed rgba(255, 206, 0, 1);
+    border: 3px dashed rgb(107 106 103);
+
 }
 
 .c-player--details .details-title {
@@ -103,7 +106,7 @@ body {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
     border: none;
     outline: none;
-    background-color: #FFCE00;
+    background-color: #74726a;
     color: #FFF;
     font-size: 24px;
     cursor: pointer;
@@ -116,4 +119,78 @@ body {
     cursor: pointer;
     color: #888;
     font-size: 18px;
+}
+
+.card-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 860px;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    width: 222px;
+    height: 315px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 13px 15px 0px rgba(0, 0, 0, 0.05);
+    transition: ease all 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.2) translateY(-20px);
+}
+
+#back {
+    width: 222px;
+    height: 315px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#back img {
+    width: 222px;
+    filter: blur(30px) ;
+    height: 222px;
+    margin: -5px -10px -10px -5px;
+    opacity: 0.9;
+}
+
+#art {
+    position: relative;
+    border-radius: 100%;
+    width: 176px;
+    height: 176px;
+    margin: 23px;
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.05);
+    transition: ease all 0.2s;
+}
+
+#title, #artist {
+    margin: 0px 17px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#title {
+    margin-top: 31px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    color: #393939;
+}
+
+#artist {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: #707070;
 }

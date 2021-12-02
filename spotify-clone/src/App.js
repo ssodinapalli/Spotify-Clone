@@ -8,6 +8,7 @@ import Contributors from "./MyComponents/Contributors";
 import { useState, useEffect } from "react";
 import Player from "./MyComponents/Player";
 
+
 function App() {
   const songs=[
     {
@@ -39,7 +40,7 @@ function App() {
   const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
 
   useEffect(() => {
-    setNextSongIndex(() => {
+    setNextSongIndex((songs) => {
       if (currentSongIndex + 1 > songs.length - 1) {
         return 0;
       } else {
@@ -47,16 +48,9 @@ function App() {
       }
     });
   }, [currentSongIndex]);
-
   return (
     <>
-      <Player
-        currentSongIndex={currentSongIndex}
-        setCurrentSongIndex={setCurrentSongIndex}
-        nextSongIndex={nextSongIndex}
-        songs={songs}
-      />      
-      {/* <Router>
+      <Router>
         <Switch>
           <Route exact path="/" component={LandingPage}></Route>
           <Route exact path="/signin" component={SignIn}></Route>
@@ -64,8 +58,12 @@ function App() {
           <Route exact path="/premium" component={Premium}></Route>
           <Route exact path="/downloads" component={Download}></Route>
           <Route exact path="/contributors" component={Contributors}></Route>
+          <Route exact path="/musicplayer" component={() => <Player currentSongIndex={currentSongIndex}
+        setCurrentSongIndex={setCurrentSongIndex}
+        nextSongIndex={nextSongIndex}
+        songs={songs}  />}></Route>
         </Switch>
-      </Router> */}
+      </Router>
     </>
   );
 }

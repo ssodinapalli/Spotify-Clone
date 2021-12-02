@@ -75,7 +75,6 @@ export default function SignUp() {
               fontFamily: "poppins",
               fontSize: "15px",
               fontWeight: "200",
-              backgroundColor: "#fdf8fc",
               width: "10px",
               position: "relative",
               bottom: "30px",

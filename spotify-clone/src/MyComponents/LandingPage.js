@@ -70,7 +70,9 @@ export default function LandingPage() {
                       Download App Now{" "}
                     </button>
                     <button className="btn btn-outline-light me-4 rounded-pill px-4 py-2">
-                      Open Web Player{" "}
+                      <a href="/Dashboard" className="btn btn-light"><span>Open Web Player</span></a>
+                      
+                      
                     </button>
                   </div>
                 </div>

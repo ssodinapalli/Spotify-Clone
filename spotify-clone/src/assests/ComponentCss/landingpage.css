@@ -23,3 +23,10 @@
 .explore:hover {
   color: white;
 }
+.web{
+  text-decoration: none;
+  color: black;
+}
+.web:hover{
+  color: black;
+}

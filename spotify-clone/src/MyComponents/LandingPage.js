@@ -70,9 +70,13 @@ export default function LandingPage() {
                       Download App Now{" "}
                     </button>
                     <button className="btn btn-outline-light me-4 rounded-pill px-4 py-2">
+<<<<<<< HEAD
                       <a href="/Dashboard" className="btn btn-light"><span>Open Web Player</span></a>
                       
                       
+=======
+                     <a href='/signin' className="web player">Open Web Player{" "} </a> 
+>>>>>>> 37ab4abaaf126e98df873f265203e0fbfbc7dca8
                     </button>
                   </div>
                 </div>

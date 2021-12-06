@@ -63,6 +63,9 @@ function App() {
         setCurrentSongIndex={setCurrentSongIndex}
         nextSongIndex={nextSongIndex}
         songs={songs}  />}></Route>
+          <Route exact path="/Dashboard" component={Dashboard}></Route>
+
+
         </Switch>
       </Router>
     </>

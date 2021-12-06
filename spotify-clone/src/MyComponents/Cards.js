@@ -6,9 +6,10 @@ function Cards() {
     <>
       <div className="cardsbackround">
         <div class="box">
-          <div class="info">
+          <img src="./images/song-1.jpg" className="card-play"></img>
+          {/* <div class="info">
             <i class="fas fa-play"></i>
-          </div>
+          </div> */}
         </div>
 
         <div class="box">
@@ -34,10 +35,87 @@ function Cards() {
             <i class="fas fa-play"></i>
           </div>
         </div>
+        <div>Playlist</div>
         <div class="box">
           <div class="info">
             <i class="fas fa-play"></i>
           </div>
+        </div>
+
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="./images/song-1.jpg" alt="onn" />
         </div>
       </div>
     </>
